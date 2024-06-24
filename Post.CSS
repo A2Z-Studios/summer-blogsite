@@ -1,0 +1,60 @@
+/*Style CSS for Blog Page Single Entry*/
+ .container{
+  /*website limits*/
+      display:grid;
+      grid-template-columns: repeat (3, 300px);
+      grid-template-rows: 250px 600px;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "main main main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+      border:dotted red;
+}
+.box{
+    /*blog layout*/
+    width: 100%;
+    height: auto;
+    border: 1px solid purple;
+    background: white;
+    font-family: Georgia, serif;
+}
+.header{
+    /*blog header*/
+    grid-area: hd;
+    background-image: url("https://cdn.pixabay.com/photo/2018/11/03/21/42/sunflowers-3792914_1280.jpg");
+    background-size: cover;
+    font-style:italic;
+    overflow-wrap: break-word;
+    text-indent: 10%;
+    color:rgb(187, 154, 180);
+}
+    #subhead{
+      color:rgb(176, 123, 164);
+      text-indent: 5%;
+      font-style: none;
+}
+    
+.entry{
+  /*entry content*/
+  border:dotted; 
+  width:400px;
+  height:600px;
+  background-color:rgb(242, 213, 106, 0.75);
+  border-bottom:rgb(129, 86, 53);
+}
+.poem{
+  /*poem design*/
+  text-indent:wrap;
+  contain:content;
+  position:fixed;
+  font-style:italic;
+}
+.footer{
+  /*blog footer*/
+    grid-area: ft; 
+    text-align:center;
+}
+    #copyright{
+      text-align:left;
+      text-decoration:line-through; 
+}
