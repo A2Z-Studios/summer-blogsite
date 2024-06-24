@@ -1,0 +1,124 @@
+/*Style CSS for Blog Page Home*/
+
+ .container{
+  /*website limits*/
+      display:grid;
+      grid-template-columns: repeat (3, 300px);
+      grid-template-rows: 250px 600px;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "sd main main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+      border:solid red;
+}
+
+.box{
+    /*blog layout*/
+    width: 100%;
+    height: auto;
+    border:black solid;
+    background: white;
+    font-family: Georgia, serif;
+}
+
+.header{
+    /*blog header*/
+    grid-area: hd;
+   
+    background-image: url("https://cdn.pixabay.com/photo/2018/11/03/21/42/sunflowers-3792914_1280.jpg");
+    background-size: cover;
+    opacity: .80;
+    font-style:italic;
+    overflow-wrap: break-word;
+    text-indent: 10%;
+    color:rgb(255, 255, 255);
+}
+
+    #subhead{
+      color:rgb(176, 123, 164);
+      text-indent: 8%;
+      font-style: normal;
+    
+}
+
+.sidebar{
+    /*blog sidebar*/
+    grid-area: sd;
+    color:rgb(0, 0, 0);
+    border-right: dashed;
+}
+
+    .sbpost{
+      /*sidebar sections*/
+      border:dotted 2px rgb(176, 123, 164);
+      opacity: .80;
+      background-image:linear-gradient(105deg, rgb(187 154 180 / 100%) 39%, rgb(236, 242, 243) 96%);
+      margin:1px;
+    }
+    .socialmedia{
+      /*social links*/
+      display:flex;
+      flex-direction:row;
+
+}
+    
+
+    
+.main{
+  /*blog main content*/
+  display:grid;
+  grid-area: main;
+  grid-template-columns:20% 20% 20% 20%;
+  grid-template-rows:25% 25% 25% 25%;
+  border:none; 
+ }
+
+    .post{
+      /*preview post*/
+      border-style:inset;
+      background-color:rgb(242, 213, 106, 0.75);
+      border-bottom: rgb(142, 94, 225);
+      margin:10px;
+      margin-left: 15px;
+}
+    .posthd{
+      /*preview post header*/
+      font-style:bold;
+      font-size:large;
+    }
+
+  .link{
+    /*keep reading link*/
+    font-size:small;
+    text-align:center;
+    color:rgb(176, 123, 164);
+  }
+
+    #one{
+      border:2px double;
+      
+
+}
+
+    #two{
+      border:5px solid
+
+}
+
+.poem{
+  text-indent:wrap;
+  position:fixed;
+
+}
+
+.footer{
+  /*blog footer*/
+    grid-area: ft; 
+    text-align:center;
+
+}
+
+    #copyright{
+      text-align:left;
+      text-decoration:line-through; 
+}
