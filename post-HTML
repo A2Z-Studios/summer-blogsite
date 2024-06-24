@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Spilled Ink</title>
+    <link rel="stylesheet" href="post.css">
+    
+</head>
+<body>
+<div class="container">
+    <div class="header box"><h1>Summertime, Fate, and Other
+    <p>      Peculiar Melanchonies</h1>
+    <p><div id="subhead"><h7>A culimation of art encompassing a young sunflower's life<h6>❀</h6></h7></div>
+    </div>
+    <div class="content">
+      <div class="entry" class="poem">Spilled Ink Entry 1:<p> 
+        Sept 21 2015<p>
+        Heart in Blaze<p>
+        like a wildfire<p>
+        raging through the veins of her soul<p>
+        Foggy smoke<p>
+        trapped in her lungs<p>
+        leaves her skin feeling frigid cold<p>
+        Although her heart is burning<p>
+        and her mind is racing<p>
+        she'd dare let heat escape her lips<p>
+        'cause she knows the burning sun<p>
+        after a bitter night<p>
+        is fire disguised as a gleaming kiss<p>
+        She would rather imitate the moon<p>
+        modest in essence<p>
+        and glowing amongst the stars<p>
+        Instead of chase after dawn<p>
+        and face the truth that<p>
+        we never really see purpose in who we are<p>
+      
+
+    </div>
+      
+      
+
+
+    </div>
+    <div class="footer box">
+      <div id="copyright"> SowingSeeds est.2024 </div>
+      <a href="file:///C:/Users/aryii/Summertime/blog-site.html"> Home</a> | 
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-gallery.html">Gallery</a> |
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-poems.html"> Spilled Ink</a> |
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-journals.html">Journals</a> |
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-myart.html">Art</a> |
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-weeklyword.html">Word of the Week</a> |
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-archives.html">Archives</a> |
+
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
