@@ -8,22 +8,36 @@
 </head>
 <body>
 <div class="container">
-    <div class="header box"><h1>Summertime, Fate, and Other
-    <p>   Peculiar Melanchonies</h1>
+    <div class="header box"><h1>Summertime, Fate, and Other 
+    <p>Peculiar Melanchonies</h1>
     <p><div id="subhead"><h7>A culimation of art encompassing a young sunflower's life</h7><h6>❀</h6></div>
     </div>
-    <div class="sidebar box">
-      <div class="sbpost">Author:</div>
+
+      <div class="sbpost">Author: In the quiet sanctuary of her studio, Aryii wields her paintbrush not merely as an instrument of creation, but as a conduit for emotional release. Her canvases become windows to her soul, capturing the ebbs and flows of her spirit in vivid strokes and bold hues. Yet, Aryii’s artistry transcends the boundaries of the brush; it is conducted across mediums, intertwining science and self-expression into a mesmerizing work of art.
+        <p> In Aryii's art, we find a messenger, a herald of optimism, a harbinger of the extraordinary within the ordinary. Her works whisper tales of strength, reminding us that beauty exists in every crevice of existence. Aryii’s artistry is not confined to galleries; it is etched into the walls of lives, the homes of souls, and the hearts of those who glimpse the world anew through her eyes. A powerful tale of science and emotion, Aryii’s artistry is a reminder that within every brushstroke and sculpture lies the power to bridge gaps, ignite passions, and ignite the flames of curiosity. As we stand before her creations, we become witnesses to the masterpiece of her soul, where the canvas of possibility stretches infinitely beyond the horizon.
+        <p><div class="link"><a href="https://intellectualink.com/aryii-bridging-the-heart-and-mind-through-the-canvas-of-art"> read full article by Phoenix Kabali</a></div>
+      </div>
       <div class="sbpost">Lost:</div>
       <div class="sbpost">Found:</div>
-      <div class="social media"><a href="https://instagram.com/artsyaryii"><button>instagram</a></button></div>
-      <div class="social media"><a href="https://tumblr.com/lolaaababy"><button>tumblr</a></button></div> 
+      <div class="social media" class="sbpost"><a href="https://instagram.com/artsyaryii"><button>instagram</button></a></div>
+      <div class="social media"><a href="https://tumblr.com/lolaaababy"><button>tumblr</button></a></div> 
       
     </div>
-    <div class="content">
-      <div class="post">Blog Post</div>
-      <div class="post">Blog Post 2</div>
-      <div class="post">Blog Post 3</div>
+
+      <div class="main">
+      <div class="post" class="posthd">Spilled Ink Entry 1:<p>
+        I used to call your name<p>
+        Scream it even...<p>
+        <div class="link"><a href="blog-site-poem-2"> keep reading</a></div></div>
+      <div class="post" class="posthd">Spilled Ink Entry 2:<p>
+        I used to call your name<p>
+        Scream it even...<p>
+          <div class="link"><a href="blog-site-poem-2"> keep reading</a></div></div>
+      <div class="post" class="posthd">Spilled Ink Entry 3:<p>
+        I used to call your name<p>
+        Scream it even...<p>
+          <div class="link"><a href="blog-site-poem-2" class="link"> keep reading</a>
+      </div>
       <div class="post">Blog Post 4</div>
       <div class="post">Blog Post 5</div>
       <div class="post">Blog Post 6</div>
