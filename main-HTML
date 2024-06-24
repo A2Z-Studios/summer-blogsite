@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Welcome to My Blog</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div class="container">
+    <div class="header box"><h1>Summertime, Fate, and Other
+    <p>   Peculiar Melanchonies</h1>
+    <p><div id="subhead"><h7>A culimation of art encompassing a young sunflower's life</h7><h6>❀</h6></div>
+    </div>
+    <div class="sidebar box">
+      <div class="sbpost">Author:</div>
+      <div class="sbpost">Lost:</div>
+      <div class="sbpost">Found:</div>
+      <div class="social media"><a href="https://instagram.com/artsyaryii"><button>instagram</a></button></div>
+      <div class="social media"><a href="https://tumblr.com/lolaaababy"><button>tumblr</a></button></div> 
+      
+    </div>
+    <div class="content">
+      <div class="post">Blog Post</div>
+      <div class="post">Blog Post 2</div>
+      <div class="post">Blog Post 3</div>
+      <div class="post">Blog Post 4</div>
+      <div class="post">Blog Post 5</div>
+      <div class="post">Blog Post 6</div>
+      <div class="post">Blog Post 7</div>
+      <div class="post">Blog Post 8</div>
+      <div class="post">Blog Post 9</div>
+      <div class="post">Blog Post 10</div>
+      
+
+    </div>
+      
+      
+
+
+
+    </div>
+    <div class="footer box">
+      <div id="copyright"> SowingSeeds est.2024 </div>
+      <a href="file:///C:/Users/aryii/Summertime/blog-site.html"> Home</a> | 
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-gallery.html">Gallery</a> |
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-poems.html"> Spilled Ink</a> |
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-journals.html">Journals</a> |
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-myart.html">Art</a> |
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-weeklyword.html">Word of the Week</a> |
+      <a href="file:///C:/Users/aryii/Summertime/blog-site-archives.html">Archives</a> |
+
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
