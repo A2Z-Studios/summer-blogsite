@@ -3,23 +3,29 @@
  .container{
   /*website limits*/
       display:grid;
-      grid-template-columns: repeat (3, 300px);
-      grid-template-rows: 250px 600px;
+      grid-template-columns: repeat;
+      grid-template-rows: 250px 3fr 10%;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "sd main main main main main main main"
       "ft ft ft ft ft ft ft ft";
       border:solid red;
+      width:fit-content;
 }
 
 .header{
     /*blog header*/
-    grid-area: hd;
+    grid-area:hd;
     background-image: url("https://cdn.pixabay.com/photo/2018/11/03/21/42/sunflowers-3792914_1280.jpg");
     background-size: cover;
+    width: 100%;
+    height: auto;
+    border:black solid 2px;
+    font-family: Georgia, serif;
     border:cyan solid 1px;
     opacity: .80;
     font-style:italic;
+    font-size:larger;
     overflow-wrap: break-word;
     text-indent: 10%;
     color:rgb(255, 255, 255);
@@ -27,85 +33,90 @@
 
     #subhead{
       color:rgb(176, 123, 164);
-      text-indent: 8%;
-      font-style: normal;
+      text-indent: 10%;
+      font-style: italic;
+      font-size: smaller;
     
-}
+  }
 
 .sidebar{
     /*blog sidebar*/
+    grid-area:sd;
     display:grid;
-    grid-template-rows:200px 200px;
+    grid-template-rows:auto;
     color:rgb(0, 0, 0);
     border-right: dashed 2px;
-}
+  }
 
     .sbpost{
       /*sidebar sections*/
       display:flex;
-      flex-direction:row;
-      flex-wrap:wrap;
+      flex-direction:column;
+      align-items:baseline;
+      justify-content:left;
+      flex-wrap: wrap;
+      width:200px;
+      height: fit-content;
       border:dotted 2px rgb(176, 123, 164);
       opacity: .80;
       background-image:linear-gradient(105deg, rgb(187 154 180 / 100%) 39%, rgb(236, 242, 243) 96%);
-      margin:1px;
+      margin:2px;
     }
 
     .sbhd{
       /*sidebar header*/
-      font-style: bold;
+      font-style:italic;
 
-    }
+  }
+    .freepicture{
+      background-image: url();
+      background-size:contain;
+
+
+  }
     .socialmedia{
       /*social links*/
       display:flex;
       flex-direction:row;
       flex-wrap:wrap;
 
-}
+  }
     
     
 .main{
   /*blog main content*/
+  grid-area:main;
   display:flex;
-  align-items:center;
-
-  grid-template-columns:20% 20% 20% 20%;
-  grid-template-rows:25% 25% 25% 25%;
-  border:none; 
+  flex-direction:row;
+  align-items:baseline;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width:fit-content; 
  }
 
     .post{
       /*preview post*/
-      border-style:inset;
+      border-style: solid double;
+      border-width: 5px;
+      max-width: 200px;
+      min-width:200px;
       background-color:rgb(242, 213, 106, 0.75);
-      border-bottom: rgb(142, 94, 225);
       margin:10px;
       margin-left: 15px;
-}
+
+    }
     .posthd{
       /*preview post header*/
-      font-style:bold;
+      font-weight: bold;
       font-size:large;
     }
 
-  .link{
-    /*keep reading link*/
-    font-size:small;
-    text-align:center;
-    color:rgb(176, 123, 164);
+    .link{
+      /*keep reading link*/
+      font-size:small;
+      text-align:center;
+      color:rgb(176, 123, 164);
   }
-
-    #one{
-      border:2px double;
-      
-
-}
-
-    #two{
-      border:5px solid
-
-}
 
 .poem{
   text-indent:wrap;
@@ -115,10 +126,15 @@
 
 .footer{
   /*blog footer*/
-    grid-area: ft; 
+    grid-area:ft;
+    display:flex;
     text-align:center;
-
-}
+    width: 100%;
+    height:fit-content;
+    background-image:linear-gradient(105deg, rgb(187 154 180 / 100%) 39%, rgb(236, 242, 243) 96%);
+    font-family: Georgia, serif;
+    
+  }
 
     #copyright{
       text-align:left;
