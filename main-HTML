@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
+<html lang="en"><head>
+    <meta charset="utf-8">
     <title>Welcome to My Blog</title>
     <link rel="stylesheet" href="style.css">
     
@@ -9,43 +7,91 @@
 <body>
 <div class="container">
     <div class="header box"><h1>Summertime, Fate, and Other 
-    <p>Peculiar Melanchonies</h1>
-    <p><div id="subhead"><h7>A culimation of art encompassing a young sunflower's life</h7><h6>❀</h6></div>
+    <p>Peculiar Melanchonies</p></h1>
+    <p></p><div id="subhead"><h7>A culimation of art encompassing a young sunflower's life ❀</h7></div>
     </div>
 
-      <div class="sbpost">Author: In the quiet sanctuary of her studio, Aryii wields her paintbrush not merely as an instrument of creation, but as a conduit for emotional release. Her canvases become windows to her soul, capturing the ebbs and flows of her spirit in vivid strokes and bold hues. Yet, Aryii’s artistry transcends the boundaries of the brush; it is conducted across mediums, intertwining science and self-expression into a mesmerizing work of art.
+      <div class="sbpost"> Author: In the quiet sanctuary of her studio, Aryii wields her paintbrush not merely as an instrument of creation, but as a conduit for emotional release. Her canvases become windows to her soul, capturing the ebbs and flows of her spirit in vivid strokes and bold hues. Yet, Aryii’s artistry transcends the boundaries of the brush; it is conducted across mediums, intertwining science and self-expression into a mesmerizing work of art.
         <p> In Aryii's art, we find a messenger, a herald of optimism, a harbinger of the extraordinary within the ordinary. Her works whisper tales of strength, reminding us that beauty exists in every crevice of existence. Aryii’s artistry is not confined to galleries; it is etched into the walls of lives, the homes of souls, and the hearts of those who glimpse the world anew through her eyes. A powerful tale of science and emotion, Aryii’s artistry is a reminder that within every brushstroke and sculpture lies the power to bridge gaps, ignite passions, and ignite the flames of curiosity. As we stand before her creations, we become witnesses to the masterpiece of her soul, where the canvas of possibility stretches infinitely beyond the horizon.
-        <p><div class="link"><a href="https://intellectualink.com/aryii-bridging-the-heart-and-mind-through-the-canvas-of-art"> read full article by Phoenix Kabali</a></div>
+        </p><p></p><div class="link"><a href="https://intellectualink.com/aryii-bridging-the-heart-and-mind-through-the-canvas-of-art"> read full article by Phoenix Kabali</a></div>
       </div>
-      <div class="sbpost">Lost:</div>
-      <div class="sbpost">Found:</div>
-      <div class="social media" class="sbpost"><a href="https://instagram.com/artsyaryii"><button>instagram</button></a></div>
+      <div class="sbpost"><a href="blog-site-poems">Lost:</a></div>
+
+      <div class="sbpost"><a href="blog-site-journals">Found:</a></div>
+      <div class="sbpost"><a href="blog-site-myart">Free:
+        <img class="free picture" src="McGee_Aryiannah_1.jpg" alt="AryiiZii Untitled Painting"></a></div>
+      <div class="social media"><a href="https://instagram.com/artsyaryii"><button>instagram</button></a></div>
       <div class="social media"><a href="https://tumblr.com/lolaaababy"><button>tumblr</button></a></div> 
       
     </div>
 
       <div class="main">
-      <div class="post" class="posthd">Spilled Ink Entry 1:<p>
-        I used to call your name<p>
-        Scream it even...<p>
-        <div class="link"><a href="blog-site-poem-2"> keep reading</a></div></div>
-      <div class="post" class="posthd">Spilled Ink Entry 2:<p>
-        I used to call your name<p>
-        Scream it even...<p>
-          <div class="link"><a href="blog-site-poem-2"> keep reading</a></div></div>
-      <div class="post" class="posthd">Spilled Ink Entry 3:<p>
-        I used to call your name<p>
-        Scream it even...<p>
-          <div class="link"><a href="blog-site-poem-2" class="link"> keep reading</a>
-      </div>
-      <div class="post">Blog Post 4</div>
-      <div class="post">Blog Post 5</div>
-      <div class="post">Blog Post 6</div>
-      <div class="post">Blog Post 7</div>
-      <div class="post">Blog Post 8</div>
-      <div class="post">Blog Post 9</div>
-      <div class="post">Blog Post 10</div>
-      
+      <div class="post">Spilled Ink Entry 1:<p>
+        Heart in a blaze</p><p>
+        like a wildfire</p><p>
+        Raging from the veins</p><p>
+        in her soul...</p><p>
+        </p><div class="link"><a href="blog-site-poem-1"> keep reading</a></div></div>
+      <div class="post">Spilled Ink Entry 2:<p>
+        I used to call your name</p><p>
+        Scream it even</p><p>
+        over empty turbulence that</p><p>
+        broke the silence of every thought in my mind...</p><p>
+          </p><div class="link"><a href="blog-site-poem-2"> keep reading</a></div></div>
+      <div class="post">Spilled Ink Entry 3:<p>
+        Fear of what I can see</p><p>
+        A broken soul, hiding from me</p><p> 
+        a bruised boy, limp &amp; angry</p><p>
+        Horribly quiet, begging for peace...</p><p>
+          </p><div class="link"><a href="blog-site-poem-3" class="link"> keep reading</a></div></div>
+      <div class="post">Spilled Ink Entry 4:<p>
+        Bitter little liar</p><p>
+        As deadly as your own blade</p><p>
+        too damaged for sunshine</p><p>
+        so you hide in the shade...</p><p>
+          </p><div class="link"><a href="blog-site-poem-4" class="link"> keep reading</a></div></div>
+      <div class="post">Spilled Ink Entry 5:<p>
+        Foolish romances</p><p>
+        Interlaced with longstanding glances</p><p>
+        Color TV's &amp; I'm sorries</p><p>
+        Do you believe in second chances...</p><p>
+          </p><div class="link"><a href="blog-site-poem-5" class="link"> keep reading</a></div>
+      <div class="post">Spilled Ink Entry 6:<p>
+        I'm afraid that I won’t be able to forget</p><p>
+        That months will go by and you’ll still circulate in my blood</p><p>
+        And stream out into every slit in my wrists</p><p>
+        Like no matter how hard I try</p><p>
+        The sink still let's go a few more drips...</p><p>
+          </p><div class="link"><a href="blog-site-poem-6" class="link"> keep reading</a></div></div>
+      <div class="post">Spilled Ink Entry 7:<p>
+        Memories laced in my pillowcase</p><p>
+        Seeping out, attempting to escape</p><p>
+        Bottled down with skin torn lies</p><p>
+        left alone in a 10ft tall ceramic vase...</p><p>
+          </p><div class="link"><a href="blog-site-poem-7" class="link"> keep reading</a></div></div>
+      <div class="post">Spilled Ink Entry 8:<p>
+        When did I get like this</p><p>
+        I only closed my eyes</p><p>
+        what did I miss</p><p>
+        Standing in the light</p><p>
+        I slowly drip...</p><p>
+          </p><div class="link"><a href="blog-site-poem-8" class="link"> keep reading</a></div></div>
+      <div class="post">Spilled Ink Entry 9:<p>
+        I feel on the brink of insanity</p><p>
+        Blurred lines, heart racing</p><p>
+        Theres too much life wants from me</p><p>
+        Fallen dreams, memories chasing...</p><p>
+          </p><div class="link"><a href="blog-site-poem-9" class="link"> keep reading</a></div></div>
+      <div class="post">Spilled Ink Entry 10:<p>
+        It all seemed so real</p><p>
+        Painting my mind with facades of happy</p><p>
+        hoping that’s all I would feel</p><p>
+        while your heart is split down the middle</p><p>
+        your pain now an oil spill...</p><p>
+          </p><div class="link"><a href="blog-site-poem-10" class="link"> keep reading</a></div></div>
+      <div class="post">Spilled Ink Entry 11:<p>
+            </p><div class="link"><a href="blog-site-poem-11" class="link"> keep reading</a></div></div>
+        
 
     </div>
       
@@ -65,10 +111,10 @@
       <a href="file:///C:/Users/aryii/Summertime/blog-site-archives.html">Archives</a> |
 
     </div>
-  </div>
+  
 
 
 
 
-</body>
-</html>
+
+</body></html>
