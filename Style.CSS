@@ -1,4 +1,4 @@
-/*Style CSS for Blog Page Home*/
+ /*Style CSS for Blog Page Home*/
 
  .container{
   /*website limits*/
@@ -12,21 +12,12 @@
       border:solid red;
 }
 
-.box{
-    /*blog layout*/
-    width: 100%;
-    height: auto;
-    border:black solid;
-    background: white;
-    font-family: Georgia, serif;
-}
-
 .header{
     /*blog header*/
     grid-area: hd;
     background-image: url("https://cdn.pixabay.com/photo/2018/11/03/21/42/sunflowers-3792914_1280.jpg");
     background-size: cover;
-    border:cyan solid 5px;
+    border:cyan solid 1px;
     opacity: .80;
     font-style:italic;
     overflow-wrap: break-word;
@@ -127,11 +118,6 @@
     grid-area: ft; 
     text-align:center;
 
-}
-
-    #copyright{
-      text-align:left;
-      text-decoration:line-through; 
 }
 
     #copyright{
