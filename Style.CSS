@@ -24,9 +24,9 @@
 .header{
     /*blog header*/
     grid-area: hd;
-   
     background-image: url("https://cdn.pixabay.com/photo/2018/11/03/21/42/sunflowers-3792914_1280.jpg");
     background-size: cover;
+    border:cyan solid 5px;
     opacity: .80;
     font-style:italic;
     overflow-wrap: break-word;
@@ -43,31 +43,42 @@
 
 .sidebar{
     /*blog sidebar*/
-    grid-area: sd;
+    display:grid;
+    grid-template-rows:200px 200px;
     color:rgb(0, 0, 0);
-    border-right: dashed;
+    border-right: dashed 2px;
 }
 
     .sbpost{
       /*sidebar sections*/
+      display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
       border:dotted 2px rgb(176, 123, 164);
       opacity: .80;
       background-image:linear-gradient(105deg, rgb(187 154 180 / 100%) 39%, rgb(236, 242, 243) 96%);
       margin:1px;
     }
+
+    .sbhd{
+      /*sidebar header*/
+      font-style: bold;
+
+    }
     .socialmedia{
       /*social links*/
       display:flex;
       flex-direction:row;
+      flex-wrap:wrap;
 
 }
     
-
     
 .main{
   /*blog main content*/
-  display:grid;
-  grid-area: main;
+  display:flex;
+  align-items:center;
+
   grid-template-columns:20% 20% 20% 20%;
   grid-template-rows:25% 25% 25% 25%;
   border:none; 
@@ -116,6 +127,11 @@
     grid-area: ft; 
     text-align:center;
 
+}
+
+    #copyright{
+      text-align:left;
+      text-decoration:line-through; 
 }
 
     #copyright{
