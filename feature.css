@@ -1,0 +1,52 @@
+/*Style CSS for all features*/
+
+.button{
+    /*button style*/
+    display:inline-block;
+    padding:15px;
+    background-color: #f2d56abf;
+    text-align: center;
+    text-decoration: dotted;
+    font-size: 16px;
+    border: black 2px;
+    border-radius:50%;
+  }
+  
+  .button:hover{
+    /*button style*/
+    display:inline-block;
+    transition-duration: 0.4s;
+    padding:15px;
+    background-color: rgba(250, 3, 219, 0.35);
+    text-align: center;
+    text-decoration: dotted;
+    font-size: 16px;
+    border: black 2px;
+  }
+
+
+  .link{
+    /*keep reading link*/
+    font-size:small;
+    text-align:center;
+    }
+    
+    /*unvisited link*/
+    a:link{
+    color:rgb(251, 238, 248);
+    }
+      
+    /*visited link*/
+    a:visited {
+    color: rgb(1, 1, 1);
+    }
+      
+    /*mouse over link*/
+    a:hover {
+    color: rgb(240, 110, 210);
+    }
+      
+    /*selected link*/
+    a:active {
+    color: rgb(0, 0, 0);
+    }
