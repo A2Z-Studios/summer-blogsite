@@ -1,4 +1,4 @@
-/*Style CSS for Blog Page Index*/
+ /*Style CSS for Blog Page Index*/
  @import "post.css";
  @import "feature.css";
 
@@ -68,20 +68,39 @@
       padding:5px;
     }
 
+    .blankpost{
+      /*sidebar sections*/
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      justify-content:space-evenly;
+      flex-wrap: wrap;
+      width:250px;
+      height: fit-content;
+      margin: 5px;
+      padding:5px;
+    }
+
     .sbhd{
       /*sidebar header*/
       font-style:italic;
       font-weight:bold;
       color:rgb(249, 232, 245);
+    }
 
-  }
+    .caption{
+      /*caption*/
+      font-style:italic;
+      font-weight:bold;
+      color:#000000;
+    }
 
     .freepicture{
      width:200px;
      height:250px;
      object-position:50%;
      object-fit:contain;
-  }
+    }
 
     
 .main{
@@ -106,6 +125,7 @@
       margin:10px;
       margin-left: 15px;
       box-shadow: 5px 5px 5px;
+      font-style:italic;
     }
 
     .posthd{
