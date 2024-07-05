@@ -1,9 +1,11 @@
- /*Style CSS for Blog Page Home*/
+/*Style CSS for Blog Page Index*/
+ @import "post.css";
+ @import "feature.css";
 
  .container{
   /*website limits*/
       display:grid;
-      grid-template-columns: repeat;
+      grid-template-columns:auto;
       grid-template-rows: 250px 3fr 10%;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
@@ -16,27 +18,29 @@
 .header{
     /*blog header*/
     grid-area:hd;
+    display:inline-block;
+    padding-top: 24px;
     background-image: url("https://cdn.pixabay.com/photo/2018/11/03/21/42/sunflowers-3792914_1280.jpg");
     background-size: cover;
     width: 100%;
     height: auto;
-    border:black solid 2px;
     font-family: Georgia, serif;
-    border:cyan solid 1px;
     opacity: .80;
     font-style:italic;
-    font-size:larger;
-    overflow-wrap: break-word;
-    text-indent: 10%;
+    font-size: 2em;
+    font-weight:bold;
+    text-indent: 12%;
     color:rgb(255, 255, 255);
 }
 
     #subhead{
-      color:rgb(176, 123, 164);
-      text-indent: 10%;
+      /*blog subhead*/
+      color:rgb(252, 3, 219);
+      text-indent: 13%;
       font-style: italic;
-      font-size: smaller;
-    
+      font-weight:bold;
+      font-size: 15px;
+      background-color:rgb(242, 213, 106, 0.75); 
   }
 
 .sidebar{
@@ -44,8 +48,7 @@
     grid-area:sd;
     display:grid;
     grid-template-rows:auto;
-    color:rgb(0, 0, 0);
-    border-right: dashed 2px;
+    grid-template-columns: auto;
   }
 
     .sbpost{
@@ -55,33 +58,31 @@
       align-items:baseline;
       justify-content:left;
       flex-wrap: wrap;
-      width:200px;
+      width:250px;
       height: fit-content;
-      border:dotted 2px rgb(176, 123, 164);
+      margin: 5px;
+      border:dashed 2px black;
       opacity: .80;
-      background-image:linear-gradient(105deg, rgb(187 154 180 / 100%) 39%, rgb(236, 242, 243) 96%);
+      background-image:linear-gradient(150deg, rgb(252 3 219), rgb(236, 242, 243));
       margin:2px;
+      padding:5px;
     }
 
     .sbhd{
       /*sidebar header*/
       font-style:italic;
+      font-weight:bold;
+      color:rgb(249, 232, 245);
 
   }
+
     .freepicture{
-      background-image: url();
-      background-size:contain;
-
-
+     width:200px;
+     height:250px;
+     object-position:50%;
+     object-fit:contain;
   }
-    .socialmedia{
-      /*social links*/
-      display:flex;
-      flex-direction:row;
-      flex-wrap:wrap;
 
-  }
-    
     
 .main{
   /*blog main content*/
@@ -100,43 +101,31 @@
       border-width: 5px;
       max-width: 200px;
       min-width:200px;
-      background-color:rgb(242, 213, 106, 0.75);
+      padding:4px;
+      background-color:#f2d56abf;
       margin:10px;
       margin-left: 15px;
-
+      box-shadow: 5px 5px 5px;
     }
+
     .posthd{
       /*preview post header*/
       font-weight: bold;
       font-size:large;
     }
 
-    .link{
-      /*keep reading link*/
-      font-size:small;
-      text-align:center;
-      color:rgb(176, 123, 164);
-  }
-
-.poem{
-  text-indent:wrap;
-  position:fixed;
-
-}
-
 .footer{
   /*blog footer*/
     grid-area:ft;
-    display:flex;
-    text-align:center;
+    text-align: center;
     width: 100%;
     height:fit-content;
-    background-image:linear-gradient(105deg, rgb(187 154 180 / 100%) 39%, rgb(236, 242, 243) 96%);
-    font-family: Georgia, serif;
-    
+    background-image:linear-gradient(105deg, rgba(252, 3, 219, 0.55) 29%, rgb(249, 252, 252) 96%);
+    font-family: Georgia, serif; 
   }
 
-    #copyright{
-      text-align:left;
-      text-decoration:line-through; 
+  #copyright{
+    text-align:center;
+    font-size:15px;
+    color:rgba(252, 3, 219);
 }
